@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none" aria-hidden="true">
+  <defs>
+    <radialGradient id="su-glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(200 200) rotate(90) scale(145)">
+      <stop stop-color="#0ea5e9" stop-opacity="0.12"/>
+      <stop offset="0.45" stop-color="#139184" stop-opacity="0.2"/>
+      <stop offset="1" stop-color="#139184" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="su-card" x1="120" y1="100" x2="280" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f4fbfb"/>
+    </linearGradient>
+    <linearGradient id="su-btn" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1bb5a4"/>
+      <stop offset="1" stop-color="#0d6e64"/>
+    </linearGradient>
+    <linearGradient id="su-ring" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#139184"/>
+    </linearGradient>
+    <filter id="su-shadow-lg" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="20" stdDeviation="22" flood-color="#0f766e" flood-opacity="0.18"/>
+    </filter>
+    <filter id="su-shadow-md" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <circle cx="200" cy="200" r="132" fill="url(#su-glow)"/>
+
+  <circle cx="68" cy="82" r="34" fill="#38bdf8" opacity="0.09"/>
+  <circle cx="334" cy="78" r="26" fill="#139184" opacity="0.08"/>
+  <circle cx="318" cy="318" r="40" fill="#139184" opacity="0.07"/>
+  <circle cx="82" cy="308" r="24" fill="#a78bfa" opacity="0.1"/>
+
+  <g filter="url(#su-shadow-lg)">
+    <g transform="translate(200 215) rotate(5)">
+      <rect x="-126" y="-112" width="252" height="224" rx="28" fill="url(#su-card)" stroke="#ffffff" stroke-width="2.5"/>
+      <rect x="-126" y="-112" width="252" height="224" rx="28" fill="#139184" opacity="0.03"/>
+      <rect x="-98" y="-92" width="196" height="8" rx="4" fill="#e2e8f0"/>
+      <rect x="-98" y="-92" width="66" height="8" rx="4" fill="url(#su-ring)"/>
+      <circle cx="0" cy="-58" r="32" fill="#e6f5f3"/>
+      <circle cx="0" cy="-66" r="14" fill="#139184"/>
+      <path d="M-18 24c0-15 12-22 18-22s18 7 18 22" fill="#139184" opacity="0.9"/>
+      <circle cx="24" cy="-66" r="12" fill="#fff" stroke="#139184" stroke-width="2"/>
+      <path d="M24 60v8M20 64h8" stroke="#139184" stroke-width="2.5" stroke-linecap="round"/>
+      <rect x="-94" y="-16" width="188" height="14" rx="7" fill="#f1f5f9"/>
+      <rect x="-94" y="8" width="188" height="14" rx="7" fill="#f1f5f9"/>
+      <rect x="-94" y="32" width="188" height="14" rx="7" fill="#f1f5f9"/>
+      <rect x="-86" y="-8" width="56" height="4" rx="2" fill="#cbd5e1"/>
+      <rect x="-86" y="16" width="72" height="4" rx="2" fill="#cbd5e1"/>
+      <rect x="-86" y="40" width="64" height="4" rx="2" fill="#cbd5e1"/>
+      <rect x="-94" y="58" width="188" height="38" rx="14" fill="url(#su-btn)"/>
+      <rect x="-94" y="58" width="188" height="38" rx="14" fill="#ffffff" opacity="0.1"/>
+      <rect x="-58" y="72" width="116" height="8" rx="4" fill="#ffffff" opacity="0.92"/>
+    </g>
+  </g>
+
+  <g filter="url(#su-shadow-md)">
+    <rect x="46" y="112" width="104" height="80" rx="18" fill="#fff"/>
+    <circle cx="70" cy="138" r="12" fill="#139184"/>
+    <text x="66.5" y="142.5" fill="#fff" font-family="system-ui,sans-serif" font-size="10" font-weight="700">1</text>
+    <circle cx="98" cy="138" r="12" fill="#e6f5f3"/>
+    <text x="94.5" y="142.5" fill="#139184" font-family="system-ui,sans-serif" font-size="10" font-weight="700">2</text>
+    <circle cx="126" cy="138" r="12" fill="#e6f5f3"/>
+    <text x="122.5" y="142.5" fill="#139184" font-family="system-ui,sans-serif" font-size="10" font-weight="700">3</text>
+    <rect x="64" y="160" width="72" height="6" rx="3" fill="#e2e8f0"/>
+    <rect x="64" y="160" width="28" height="6" rx="3" fill="url(#su-ring)"/>
+    <rect x="64" y="174" width="56" height="5" rx="2.5" fill="#f1f5f9"/>
+  </g>
+
+  <g filter="url(#su-shadow-md)">
+    <circle cx="308" cy="94" r="38" fill="#fff"/>
+    <circle cx="308" cy="82" r="14" fill="#139184"/>
+    <path d="M292 108c0-12 10-18 16-18s16 6 16 18" fill="#139184" opacity="0.9"/>
+    <circle cx="328" cy="108" r="14" fill="url(#su-ring)"/>
+    <path d="M328 100v16M320 108h16" stroke="#fff" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <g filter="url(#su-shadow-md)">
+    <rect x="274" y="264" width="88" height="88" rx="22" fill="#fff"/>
+    <rect x="290" y="278" width="56" height="40" rx="10" fill="#e6f5f3"/>
+    <path d="M290 278l28 18 28-18" stroke="#139184" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="298" y="298" width="36" height="5" rx="2.5" fill="#c7e8e3"/>
+    <circle cx="348" cy="272" r="12" fill="#139184"/>
+    <path d="M344 272l3 3 7-8" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g filter="url(#su-shadow-md)" transform="translate(118 292)">
+    <rect x="0" y="0" width="72" height="52" rx="14" fill="#fff"/>
+    <circle cx="16" cy="18" r="7" fill="#139184"/>
+    <path d="M12 18l3 3 6-7" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="28" y="14" width="36" height="5" rx="2.5" fill="#e2e8f0"/>
+    <circle cx="16" cy="34" r="7" fill="#e6f5f3"/>
+    <rect x="28" y="30" width="28" height="5" rx="2.5" fill="#f1f5f9"/>
+  </g>
+
+  <path d="M150 148c30 26 40 40 40 64" stroke="#139184" stroke-width="2" stroke-linecap="round" opacity="0.18" stroke-dasharray="6 7"/>
+  <path d="M266 108c-20 28-36 58-48 90" stroke="#0ea5e9" stroke-width="2" stroke-linecap="round" opacity="0.16" stroke-dasharray="6 7"/>
+  <path d="M300 284c-28-22-58-38-92-50" stroke="#139184" stroke-width="2" stroke-linecap="round" opacity="0.18" stroke-dasharray="6 7"/>
+
+  <path d="M94 70l2 8 8 2-8 2-2 8-2-8-8-2 8-2z" fill="#a78bfa" opacity="0.85"/>
+  <path d="M336 220l1.5 6 6 1.5-6 1.5-1.5 6-1.5-6-6-1.5 6-1.5z" fill="#38bdf8" opacity="0.8"/>
+</svg>

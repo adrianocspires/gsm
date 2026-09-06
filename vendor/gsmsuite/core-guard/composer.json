@@ -1,0 +1,19 @@
+{
+  "name": "gsmsuite/core-guard",
+  "description": "GSMSuite Core Guard",
+  "type": "library",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "autoload": {
+    "psr-4": {
+      "GSMSuite\\CoreGuard\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "GSMSuite\\CoreGuard\\GSMSuiteServiceProvider"
+      ]
+    }
+  }
+}
